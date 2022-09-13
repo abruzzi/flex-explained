@@ -25,21 +25,20 @@ p {
   font-style: italic;
 }
 
-.flex {
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
   width: calc(100vw - 4rem);
-  margin: 30% auto;
+  margin-inline: 2rem;
+}
 
+.flex {
   display: flex;
 }
 
 .item {
   padding: 1rem;
-
-  flex-basis: 0%;
-  flex-grow: 1;
-  flex-shrink: 1;
-
-  flex: 1;
   flex: 1 1 0%;
 }
 
